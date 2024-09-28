@@ -7,6 +7,7 @@ import pandas as pd
 import warnings
 import pathlib
 from src.chain_splitter_assem import *
+from src.chain_splitter_one import *
 
 warnings.filterwarnings("ignore")
 
@@ -33,6 +34,16 @@ def GetSelection(bdfile, mode='assembly'):
 
         df_merged.to_csv("./data/assembly/selection_assembly.txt", sep='\t', index=False, header=False)
         return "./data/assembly/selection_assembly.txt"
+    
+    elif mode == 'one2one':
+        filepath = "data/" + bdfile
+        df = pd.read_csv(filepath, sep='\t')[["BioDolphinID", "complex_PDB_ID", "complex_Receptor_Chain", "complex_Ligand_Chain", "lipid_Ligand_ID_CCD", "complex_Residue_number_of_the_ligand"]]
+        #each entry will need to generate one structure
+        
+        pathlib.Path('./data/one2one').mkdir(parents=True, exist_ok=True) 
+        df.to_csv("./data/one2one/selection_one2one.txt", sep='\t', index=False, header=False)
+        
+        return "./data/one2one/selection_one2one.txt"
 
 
 '''
@@ -54,12 +65,11 @@ def GetSplitPDB(selectFile,  mode='assembly'):
 
     pdbList = PDB.PDBList()
 
-    outdir = "./data/assembly/pdbs_selected/" #save the selected pdbs here
-    pathlib.Path(outdir).mkdir(parents=True, exist_ok=True) 
-
     orgpdb_dir = "./data/pdbs_original" #save the original pdbs here
 
     if mode == 'assembly':
+        outdir = "./data/assembly/pdbs_selected/" #save the selected pdbs here
+        pathlib.Path(outdir).mkdir(parents=True, exist_ok=True) 
         splitter = ChainSplitter(outdir)
         with open(selectFile) as pdb_textfile:
             for line in pdb_textfile:
@@ -79,7 +89,31 @@ def GetSplitPDB(selectFile,  mode='assembly'):
                     print(f"biopython can't get the structure: {pdb_id}")
                     with open("pdbs_nostruct.txt", "a") as f:
                         f.write(pdb_id+"\n")
+                        
+    elif mode == 'one2one':
+        outdir = "./data/one2one/pdbs_selected/" #save the selected pdbs here
+        pathlib.Path(outdir).mkdir(parents=True, exist_ok=True) 
+        splitter = ChainSplitter_one(outdir)
+        with open(selectFile) as BD_textfile:
+            for line in BD_textfile:
+                strings_list = line.strip().split("\t")
+                bd_id = strings_list[0]
+                pdb_id = strings_list[1]
+                protein_chain = strings_list[2]
+                lipid_chain = strings_list[3]
+                lipid_resname = strings_list[4]
+                lipid_resnum = strings_list[5]
+                print(f'getting one2one structure for biodolphin ID: {bd_id}')
+               
+                pdb_fn = pdbList.retrieve_pdb_file(pdb_id, file_format='pdb', pdir=orgpdb_dir) #fetch the pdb from the pdb_id
                 
+                try:
+                    splitter.make_pdb(pdb_fn, bd_id, pdb_id, protein_chain, lipid_chain, lipid_resname, lipid_resnum) #create new pdbs with certain protein and lipid
+                except:
+                    print(f"biopython can't get the structure of db ID: {bd_id}")
+                    
+                
+            
             
                     
 
@@ -97,7 +131,6 @@ if __name__ == "__main__":
     parser.add_argument('-d','--dataset', help='current dataset filename (.txt) in the data directory', default="BioDolphin_vr1.1.txt", type=str, required=False)
     parser.add_argument('--assembly', default=False, action='store_true')
     parser.add_argument('--one2one', default=False, action='store_true')
-    #parser.add_argument('--one2one', action=argparse.BooleanOptionalAction)
 
     args = parser.parse_args()
 
@@ -110,18 +143,17 @@ if __name__ == "__main__":
     
     if ASSEMBLY:
         # Get a file that specifies what to select:
-        selectFilePath = GetSelection(BDFILE, mode='assembly')
-        GetSplitPDB(selectFilePath, mode='assembly')
+        selectFilePath = GetSelection(BDFILE, mode='assembly') #Get a text file of the pdbs and the chains and ccd selected
+        GetSplitPDB(selectFilePath, mode='assembly') #Get the pdbs based on selection
+
 
     elif ONE2ONE:
-        pass
+        selectFilePath = GetSelection(BDFILE, mode='one2one')  #Get a text file of the pdbs and the chains and ccd selected
+        #selectFilePath = './data/one2one/selection_one2one.txt'
+        GetSplitPDB(selectFilePath, mode='one2one')  #Get the pdbs based on selection
 
     else:
         raise Exception("no option chosen for pdb element selections")
-
-
-
-
 
 
     print('Finished running!')
