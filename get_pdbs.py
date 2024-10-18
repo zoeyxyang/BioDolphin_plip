@@ -8,6 +8,7 @@ import warnings
 import pathlib
 from src.chain_splitter_assem import *
 from src.chain_splitter_one import *
+from pathlib import Path
 
 warnings.filterwarnings("ignore")
 
@@ -78,7 +79,14 @@ def GetSplitPDB(selectFile,  mode='assembly'):
                 protein_chains = strings_list[1].split(",")
                 lipid_chains = strings_list[2].split(",")
                 lipid_resnames = strings_list[3].split(",")
-                print(f'getting split pdb: {pdb_id}')
+                
+                org_pdbfile = f"./data/assembly/pdbs_selected/{pdb_id}.pdb"
+                if org_pdbpath.is_file():
+                    print(f'split pdb for {pdb_id} exist, skipping this pdb')
+                    continue
+                else:
+                    print(f'getting split pdb: {pdb_id}')
+
                 pdb_fn = pdbList.retrieve_pdb_file(pdb_id, file_format='pdb', pdir=orgpdb_dir) #fetch the pdb from the pdb_id
                 
                 try:
@@ -86,7 +94,7 @@ def GetSplitPDB(selectFile,  mode='assembly'):
                     with open("./data/assembly/path_sele_all.txt", "a") as f:
                         f.write(outdir+pdb_id+".pdb\n")
                 except:
-                    print(f"biopython can't get the structure: {pdb_id}")
+                    print(f"biopython can't get the structure: {pdb_id}") #TODO: these big structures don't have pdb (only cif available)
                     with open("pdbs_nostruct.txt", "a") as f:
                         f.write(pdb_id+"\n")
                         
@@ -102,13 +110,20 @@ def GetSplitPDB(selectFile,  mode='assembly'):
                 protein_chain = strings_list[2]
                 lipid_chain = strings_list[3]
                 lipid_resname = strings_list[4]
-                lipid_resnum = strings_list[5]
-                print(f'getting one2one structure for biodolphin ID: {bd_id}')
+                if len(strings_list) == 6:
+                    lipid_resnum = strings_list[5]
+                    print(f'getting one2one structure for biodolphin ID: {bd_id}')
+                else:
+                    continue # if there is no resnum, skip that pdb (structure usually is too big and don't have pdb file installable)
+                
                
                 pdb_fn = pdbList.retrieve_pdb_file(pdb_id, file_format='pdb', pdir=orgpdb_dir) #fetch the pdb from the pdb_id
                 
                 try:
+                    lipid_resnum = int(float(lipid_resnum))
                     splitter.make_pdb(pdb_fn, bd_id, pdb_id, protein_chain, lipid_chain, lipid_resname, lipid_resnum) #create new pdbs with certain protein and lipid
+                    with open("./data/one2one/path_sele_all.txt", "a") as f:
+                        f.write(outdir+bd_id+".pdb\n")
                 except:
                     print(f"biopython can't get the structure of db ID: {bd_id}")
                     

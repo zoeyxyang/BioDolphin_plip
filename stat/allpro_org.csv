@@ -1,0 +1,1410 @@
+protein_Organism,count
+['Homo sapiens'],19576
+['Bos taurus'],6182
+['Escherichia coli'],5466
+['Sus scrofa'],3657
+['Mus musculus'],3621
+['Thermosynechococcus vestitus'],3343
+['Rattus norvegicus'],2920
+['Ovis aries'],2212
+['Cereibacter sphaeroides'],2193
+['Thermostichus vulcanus'],1791
+['Saccharomyces cerevisiae'],1592
+['Dokdonia eikasta'],1529
+['Chlamydomonas reinhardtii'],1381
+['Arabidopsis thaliana'],1335
+['Chaetoceros neogracilis'],1270
+['Halobacterium salinarum'],1202
+['Oryctolagus cuniculus'],901
+['Synechocystis sp.'],836
+['Gloeobacter violaceus'],781
+['Bacillus coahuilensis'],764
+['Pisum sativum'],749
+['Thermochromatium tepidum'],740
+['Dunaliella salina'],725
+['Tetrahymena thermophila SB210'],724
+['Mycobacterium tuberculosis'],658
+['Yarrowia lipolytica'],640
+['Pseudomonas aeruginosa'],621
+['Thermus thermophilus'],527
+['Danio rerio'],477
+['Nonlabens marinus S1-08'],464
+['Gallus gallus'],432
+['Drosophila melanogaster'],428
+['Methylococcus capsulatus'],406
+['Caenorhabditis elegans'],400
+['Spirochaeta thermophila'],398
+['Agrobacterium fabrum  (Agrobacterium tumefaciens )'],393
+['Squalus acanthias'],388
+['Chroomonas placoidea'],366
+['Rhodopseudomonas palustris'],361
+['Staphylococcus aureus'],345
+['Nostoc sp.'],340
+['Blastochloris viridis'],328
+['Aquifex aeolicus'],327
+['Bacillus subtilis'],319
+['Streptococcus thermophilus'],302
+['Acaryochloris marina'],300
+['Pseudomonas putida'],298
+['Cereibacter sphaeroides f. sp. denitrificans'],287
+"['Homo sapiens', 'Escherichia coli']",284
+['Tetrahymena thermophila'],278
+['Trypanosoma brucei brucei'],262
+['Roseiflexus castenholzii DSM 13941'],258
+['Euglena gracilis'],257
+['Gemmatimonas phototrophica'],256
+['Mycolicibacterium smegmatis (strain ATCC 700084 / mc155)'],255
+['Physcomitrium patens'],255
+['Methanocaldococcus jannaschii'],253
+['Human immunodeficiency virus type 1 group M subtype B'],250
+['Spinacia oleracea'],244
+['Mycolicibacterium smegmatis MC2 155'],238
+['Thermotoga maritima'],237
+['Klebsiella pneumoniae'],232
+['Salmonella typhimurium'],231
+['Porphyridium purpureum'],230
+['Natronomonas pharaonis'],228
+['Magnetospirillum molischianum'],228
+['Meleagris gallopavo'],224
+['Ostreococcus tauri'],220
+['Chlorella ohadii'],219
+['Deinococcus radiodurans'],214
+['synthetic construct'],207
+['Severe acute respiratory syndrome coronavirus 2'],203
+['Gloeobacter violaceus (strain ATCC 29082 / PCC 7421)'],200
+['Corynebacterium glutamicum'],200
+['Cereibacter sphaeroides 2.4.1'],196
+['Amphidinium carterae'],194
+['Chlorella sorokiniana'],187
+['Aspergillus fumigatus'],177
+['Rhodobacter capsulatus'],176
+['Vibrio cholerae serotype O1'],176
+['Cyanidioschyzon merolae strain 10D'],175
+['Bryopsis corticulans'],173
+['Salpingoeca rosetta (strain ATCC 50818 / BSB-021)'],168
+['Synechococcus elongatus PCC 7942 = FACHB-805'],168
+['Pyrococcus horikoshii'],168
+['Rhodospirillum rubrum'],167
+['Symbiodinium'],162
+['Aliarcobacter butzleri'],161
+['Pyrococcus abyssi'],153
+['Thermochaetoides thermophila DSM 1495'],153
+['Tetronarce californica'],148
+['Mycobacterium tuberculosis H37Rv'],147
+['Neisseria gonorrhoeae'],146
+['Mycolicibacterium smegmatis MC2 51'],141
+['Thalassiosira pseudonana'],139
+['Xenopus laevis'],137
+['Poliovirus type 1'],137
+['Acinetobacter baumannii'],135
+['Organic Lake phycodnavirus'],134
+['Aequorea victoria'],129
+['Magnetococcus marinus'],128
+['Stephanocyclus meneghinianus'],127
+['Plasmodium vivax'],125
+['Enterobacteria phage T4'],121
+['Candidatus Actinomarina minuta'],116
+['Haemophilus influenzae'],116
+['Bacillus cereus'],115
+['Erythrobacter sp. HL-111'],114
+['Ictidomys tridecemlineatus'],108
+['Eubacterium ramulus'],103
+['Rhodopila globiformis'],100
+['Arthrospira platensis'],99
+['Allochromatium tepidum'],99
+['Candida albicans'],97
+['Aplysia californica'],96
+['Roseiflexus castenholzii'],96
+['Geobacillus kaustophilus'],96
+['Leishmania major'],95
+['Enterococcus hirae'],94
+['Oryza sativa subsp. japonica'],92
+['Chroococcidiopsis sp. TS-821'],91
+['Picea abies'],91
+['Ilyobacter tartaricus'],88
+['Cyanophora paradoxa'],88
+['Corynebacterium glutamicum ATCC 13032'],87
+['Mesocricetus auratus'],85
+['Streptomyces antibioticus'],85
+['Salmonella typhi'],85
+['Trypanosoma brucei gambiense'],85
+['Nicotiana suaveolens'],85
+['Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155)'],84
+['Cyanobacterium aponinum'],84
+['Cupriavidus metallidurans'],84
+['Fusobacterium nucleatum subsp. nucleatum'],83
+['Fusarium vanettenii (strain ATCC MYA-4622 / CBS 123669 / FGSC 9596 / NRRL 45880 / 77-13-4)'],82
+['Escherichia coli O6:H1'],82
+['Archaeoglobus fulgidus'],80
+['Thermosynechococcus vestitus BP-1'],78
+['Priestia megaterium'],78
+['Allochromatium vinosum'],77
+['Chaetomium thermophilum'],76
+['Synechococcus sp. PCC 7335'],75
+['Hyphochytrium catenoides'],75
+['Fischerella thermalis PCC 7521'],75
+['Galdieria sulphuraria'],74
+['Thermomyces lanuginosus'],73
+['Hordeum vulgare subsp. spontaneum'],73
+['Synechocystis sp. PCC 7509'],73
+['Fischerella thermalis JSC-11'],72
+['Plexaura homomalla'],72
+['Thiorhodovibrio sp. 970'],71
+['Plasmodium falciparum'],71
+['uncultured Actinomycetes bacterium'],71
+['Cyanidium caldarium'],71
+['Neisseria meningitidis'],70
+['Renibacterium salmoninarum'],68
+['Enterobacter cloacae'],66
+['Vigna radiata var. radiata'],66
+['Pseudomonas fluorescens'],65
+['Nematostella vectensis'],64
+['Tolypothrix sp. NIES-4075'],64
+['Effrenium voratum'],63
+['Pyrococcus furiosus'],62
+['Coelastrella'],62
+['Phaeovulum veldkampii DSM 11550'],62
+['Schizosaccharomyces pombe'],62
+['Vigna radiata'],62
+['Ascaris suum'],61
+"['Homo sapiens', 'Enterobacteria phage T4']",61
+['Bacillus anthracis'],59
+['Streptomyces coelicolor (strain ATCC BAA-471 / A3 / M145)'],59
+['Halorubrum sodomense'],59
+['Synthetic peptide'],58
+['Aspergillus terreus'],57
+['Helicobacter pylori'],57
+['Rhodomonas lens'],56
+['Bacteroides thetaiotaomicron'],56
+['Zea mays'],55
+"['Clavularia sp.', 'Homo sapiens']",55
+['Chlamydia trachomatis'],55
+['Saccharomyces cerevisiae (strain ATCC 204508 / S288c)'],54
+['Methanosarcina mazei'],54
+"['Aequorea victoria', 'Rattus norvegicus']",54
+['Thermosipho africanus'],53
+['Escherichia coli (strain K12)'],53
+['Hordeum vulgare'],53
+['Avena sativa'],52
+['Halomicronema hongdechloris C2206'],51
+['Listeria monocytogenes serovar 1/2a'],51
+['Campylobacter jejuni subsp. jejuni serotype O:2'],51
+['Apis mellifera'],51
+['Toxoplasma gondii'],51
+['Synechocystis sp. (strain PCC 6803 / Kazusa)'],50
+['Leptosphaeria maculans'],49
+['Glycine max'],49
+['Bdellovibrio bacteriovorus'],48
+['Parus major'],48
+['Rhodomonas salina'],48
+['Aedes aegypti'],48
+['Trypanosoma cruzi'],47
+['Corynebacterium pollutisoli'],47
+['Shigella flexneri serotype X'],47
+['Haloquadratum walsbyi'],47
+['Thermosynechococcus vestitus (strain NIES-2133 / IAM M-273 / BP-1)'],46
+['Escherichia coli O157:H7'],46
+['Cricetus cricetus'],46
+['Klebsiella pneumoniae subsp. pneumoniae'],46
+['Escherichia coli SE11'],46
+['Mycobacterium kansasii ATCC 12478'],45
+['Dickeya dadantii  (Erwinia chrysanthemi )'],45
+['Streptococcus pneumoniae serotype 4'],44
+['Natronomonas pharaonis DSM 2160'],43
+['Nanosalina sp.'],43
+['Comamonas testosteroni'],43
+['Thermoplasma acidophilum'],43
+['Hepatitis C virus genotype 1b'],43
+['Mastigocladopsis repens'],43
+['Clostridioides difficile'],42
+['Propionibacterium freudenreichii subsp. shermanii'],42
+['Marichromatium purpuratum 984'],42
+['Lactococcus lactis'],42
+['Synechococcus sp.'],42
+['Saccharolobus solfataricus'],41
+['Shewanella oneidensis'],41
+['Lactobacillus acidophilus'],41
+['Neurospora crassa'],41
+['Human coronavirus OC43'],41
+['Getah virus'],40
+['Pseudomonas aeruginosa PAO1'],40
+['Arthrobacter sp'],40
+['Oryzias latipes'],40
+['Methanothermobacter thermautotrophicus'],39
+['Influenza A virus'],39
+['Escherichia coli BL21(DE3)'],38
+['Camelus dromedarius'],38
+['Todarodes pacificus'],38
+['Bombyx mori'],37
+['Enterococcus faecium'],37
+['Chlorobaculum tepidum'],37
+['Streptomyces lividans'],37
+['Mastigocladus laminosus'],37
+['Severe acute respiratory syndrome coronavirus'],37
+['Exiguobacterium sibiricum'],36
+['Acinetobacter phage phiAB6'],36
+['Agrobacterium fabrum'],36
+['Murine norovirus 1'],36
+['Polytomella sp. Pringsheim 198.80'],35
+['Acetabularia acetabulum'],35
+['Candidatus Lokiarchaeota archaeon'],35
+"['Mus musculus', 'Gloeobacter violaceus']",34
+['Halalkalibacterium halodurans'],34
+['Canis lupus familiaris'],34
+['Chlorella variabilis'],33
+['Gloeobacter violaceus PCC 7421'],33
+['Thermoplasmatales archaeon SG8-52-1'],33
+['Ligilactobacillus salivarius'],33
+['Aliivibrio fischeri'],33
+['Vitis vinifera'],33
+['Vibrio cholerae'],33
+['Nicotiana tabacum'],33
+['Equus caballus'],33
+['Tribolium castaneum'],32
+['Acaryochloris marina MBIC11017'],32
+['Yersinia pestis'],32
+['Enterococcus faecalis'],31
+['Pseudomonas sp.'],31
+['Streptomyces sp. CNH189'],31
+['Phaedon cochleariae'],31
+['Novosphingobium aromaticivorans'],31
+['Enterobacteria phage f1'],30
+['Enterococcus casseliflavus EC10'],30
+['Methylotuvimicrobium alcaliphilum'],30
+['Vibrio harveyi'],30
+['Emiliania huxleyi'],30
+['Methylocystis sp. ATCC 49242'],30
+['Butyrivibrio proteoclasticus'],30
+['Cupriavidus necator'],30
+['Serratia marcescens'],30
+['Thermothelomyces thermophilus'],30
+['Citrobacter koseri'],29
+['Shigella flexneri'],29
+['Nicotiana alata'],29
+['Daboia russelii'],28
+['Sorghum bicolor'],28
+['Xenopus tropicalis'],28
+['Aspergillus niger'],28
+['Bionectria ochroleuca'],27
+['Halorhodospira halochloris'],27
+['Pyrobaculum aerophilum'],27
+"['Homo sapiens', 'Mus musculus']",27
+['Pseudozyma antarctica'],27
+['Guillardia theta'],27
+['Arthrospira platensis HN01'],27
+['Geobacillus stearothermophilus'],27
+['unidentified'],27
+['Rhinocladiella mackenziei CBS 650.93'],27
+['Actinia fragacea'],27
+['Arachis hypogaea'],27
+['Chromobacterium violaceum'],26
+['Anoxybacillus flavithermus'],26
+['Streptomyces sp.'],26
+['Alcaligenes xylosoxydans xylosoxydans'],26
+['Streptococcus thermophilus (strain ATCC BAA-250 / LMG 18311)'],26
+['Rhodococcus opacus'],26
+['Unknown prokaryotic organism'],26
+['Thiorhodovibrio frisius'],25
+['Salpingoeca rosetta'],25
+['Cyanidioschyzon merolae'],25
+['uncultured bacterium'],24
+['Erythrobacter longus'],24
+['Streptococcus pneumoniae'],24
+['Anaerotignum propionicum'],24
+['Alcaligenes faecalis'],24
+['Bordetella bronchiseptica'],24
+['Chloroflexus aurantiacus'],24
+['Streptomyces clavuligerus'],23
+['Saccharolobus shibatae'],23
+['Rhodococcus jostii'],23
+['Methanococcus maripaludis'],23
+['Streptomyces sp. FLA'],23
+['Starkeya novella'],23
+['Streptomyces xinghaiensis'],23
+['Actinoplanes teichomyceticus'],22
+['Rhizobium tropici'],22
+['Haloarcula marismortui'],22
+['Neisseria wadsworthii 9715'],22
+['Sulfolobus acidocaldarius'],22
+['Xanthomonas campestris pv. campestris'],22
+['Hordeum vulgare subsp. vulgare'],22
+['Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)'],22
+['Prasiola crispa'],22
+['Alkalilimnicola ehrlichii MLHE-1'],22
+['Castellaniella defragrans'],22
+['Clostridium perfringens'],21
+['Niallia circulans'],21
+['Cryptosporidium parvum'],21
+['Halobacterium sp.'],21
+['Zymomonas mobilis subsp. mobilis'],21
+['Cricetulus griseus'],21
+['Nostoc punctiforme'],21
+['Medicago sativa'],21
+['Rhizobium radiobacter'],21
+['Aerococcus viridans'],21
+['Pseudomonas sp. ATCC 13867'],20
+['Brucella abortus'],20
+['Geobacter metallireducens'],20
+['Myxococcus xanthus'],20
+['Cryptococcus neoformans var. grubii serotype A'],20
+['Pseudomonas cichorii'],20
+['Grass carp reovirus'],20
+['Rhodoblastus acidophilus'],19
+['Geobacillus thermodenitrificans'],19
+['Bacillus thermoproteolyticus'],19
+['Vicugna pacos'],19
+['Streptomyces venezuelae'],19
+['Campylobacter jejuni'],19
+['Neisseria meningitidis serogroup B'],19
+['Mycobacteroides abscessus'],19
+"['Streptomyces viridosporus', 'Saccharolobus solfataricus']",19
+['Triticum aestivum'],19
+"['Homo sapiens', 'Dickeya dadantii  (Erwinia chrysanthemi )']",19
+['Cutibacterium acnes HL110PA4'],19
+['Mycobacterium marinum'],18
+['Streptomyces viridosporus'],18
+['Cyriopagopus schmidti'],18
+['Leishmania mexicana'],18
+['Methanosarcina acetivorans'],18
+['Dickeya chrysanthemi'],18
+['Amphitrite ornata'],18
+['Porphyromonas gingivalis'],18
+['Human immunodeficiency virus 1'],18
+['Rhodococcus erythropolis'],18
+['Anaerolinea thermophila'],18
+['Brevibacillus brevis'],18
+['Pseudomonas mevalonii'],17
+['Streptomyces avermitilis'],17
+['Sphingomonas paucimobilis'],17
+"['Homo sapiens', 'Periplaneta americana']",17
+['Paenarthrobacter ureafaciens'],17
+['Azotobacter vinelandii'],17
+['Chlorobaculum tepidum TLS'],17
+"['Homo sapiens', 'Severe acute respiratory syndrome coronavirus 2']",17
+['Phaeocystis globosa virus 12T'],17
+['Salmonella enterica subsp. enterica serovar Typhi str. CT18'],16
+['Callithrix jacchus'],16
+['Synechococcus elongatus'],16
+['Haliclona sp.'],16
+['Mycolicibacterium phlei'],16
+['Streptococcus pyogenes serotype M1'],16
+['Yersinia frederiksenii'],16
+['Trametes versicolor'],16
+['Human cytomegalovirus'],16
+['Dionaea muscipula'],16
+['Spodoptera frugiperda'],16
+['Albifimbria verrucaria'],16
+['Picea sitchensis'],16
+['Persephonella marina'],16
+['Providencia stuartii'],16
+['Nocardia farcinica'],16
+['Komagataella phaffii'],16
+['Clostridium acetobutylicum'],16
+['Calothrix sp. NIES-2098'],16
+['Heterocapsa pygmaea'],16
+['Solanum lycopersicum'],15
+['Bacillus licheniformis'],15
+['Hepatitis C virus genotype 1a'],15
+['Streptomyces carzinostaticus'],15
+['Bothrops moojeni'],15
+['Macaca mulatta'],15
+['Streptomyces lasalocidi'],15
+['Coxsackievirus A21'],15
+['Fowlpox virus'],15
+['Medicago truncatula'],15
+['Staphylococcus hominis'],15
+['Escherichia coli K-12'],15
+['Paenarthrobacter nicotinovorans'],15
+['Bacillus sp.'],15
+['Rubrobacter xylanophilus'],15
+['Paramecium bursaria Chlorella virus CZ-2'],14
+['Enterobacter cloacae subsp. cloacae'],14
+['Vaccinia virus   (Vaccinia virus )'],14
+['Catharanthus roseus'],14
+['Actinomycetospora chiangmaiensis'],14
+['Talaromyces marneffei PM1'],14
+['Lactococcus lactis subsp. cremoris'],14
+['Lactiplantibacillus plantarum'],14
+['Bison bison bison'],14
+['Pseudomonas fragi'],14
+['Dictyostelium discoideum'],14
+['Paracoccus denitrificans'],14
+['Picosynechococcus sp.'],14
+['Naegleria fowleri'],14
+"['Aequorea victoria', 'Homo sapiens']",14
+['Lentinula edodes'],14
+['Stenotrophomonas maltophilia'],14
+['Phaffia rhodozyma'],14
+['Acyrthosiphon pisum'],13
+['Mycolicibacterium smegmatis (strain MKD8)'],13
+['Rhodococcus sp'],13
+['Candidatus Arsenophonus nilaparvatae'],13
+['Crassostrea gigas'],13
+['Photobacterium profundum'],13
+['Corynebacterium diphtheriae'],13
+['Catenulispora acidiphila'],13
+['Rhizobium meliloti'],13
+['Volvariella volvacea'],13
+['Heliothis virescens'],13
+['Burkholderia pseudomallei'],13
+['Cochliobolus lunatus'],13
+['Anopheles gambiae'],13
+['Limosilactobacillus reuteri'],13
+['Porcine epidemic diarrhea virus'],13
+['Paenarthrobacter aurescens'],13
+['Yersinia pseudotuberculosis serotype I'],12
+['Streptomyces nogalater'],12
+['Codium fragile'],12
+['Mycolicibacterium vanbaalenii'],12
+['Thermococcus kodakarensis'],12
+['Vibrio alginolyticus'],12
+['Oryza sativa subsp. indica'],12
+['Polaromonas sp.'],12
+['Geobacter sulfurreducens'],12
+['Burkholderia cenocepacia  (Burkholderia cepacia )'],12
+['Cryptococcus neoformans var. grubii H99'],12
+['Apicomplexa'],12
+['Butea monosperma'],12
+['Bordetella petrii'],12
+['Actinomadura sp.'],12
+['Candida tropicalis'],12
+['Hasarius adansoni'],12
+['Eleftheria terrae'],12
+['Staphylococcus epidermidis'],12
+['Alvinella pompejana'],12
+['Coxsackievirus B1'],12
+['Kluyveromyces lactis'],12
+['Clostridium symbiosum'],11
+['Methanosarcina barkeri'],11
+['Rhizobium etli'],11
+['Ricinus communis'],11
+"['Homo sapiens', 'Eimeria acervulina']",11
+['Pseudonocardia autotrophica'],11
+"['Rattus norvegicus', 'Recombinant vesicular stomatitis Indiana virus rVSV-G/GFP']",11
+['Hypocrea jecorina'],11
+['Solanum habrochaites'],11
+['Bradyrhizobium diazoefficiens'],11
+['Loxosceles intermedia'],11
+['Scheffersomyces stipitis'],11
+['Coxsackievirus B3'],11
+['Mycolicibacterium hassiacum'],11
+['Flavobacterium johnsoniae'],11
+['Canavalia ensiformis'],11
+['Thermococcus kodakarensis  (Pyrococcus kodakaraensis )'],11
+"['Escherichia coli', 'Meleagris gallopavo']",11
+['Thermosynechococcus sp. NK55a'],11
+['Thermus aquaticus'],11
+['Magnetospirillum magnetotacticum'],10
+['Nodosilinea nodulosa PCC 7104'],10
+['Gamma-proteobacterium Hot 75m4'],10
+['Desulfovibrio vulgaris'],10
+['Klebsiella pneumoniae 30660/NJST258_1'],10
+['Streptomyces wuyuanensis'],10
+['Thermus thermophilus JL-18'],10
+['Strongylocentrotus purpuratus'],10
+['Clostridium butyricum E4 str. BoNT E BL5262'],10
+['Nipah virus'],10
+['Vibrio parahaemolyticus serotype O3:K6'],10
+['Leptospira biflexa serovar Patoc'],10
+['Mycobacteroides abscessus subsp. abscessus'],10
+['Ralstonia nicotianae'],10
+['Streptomyces lavendulae subsp. lavendulae'],10
+['Kribbella flavida'],10
+['Streptomyces ambofaciens'],10
+['Aeropyrum pernix'],10
+['Clostridium pasteurianum'],10
+['Aromatoleum evansii'],10
+['uncultured Bdellovibrionales bacterium'],10
+['Levilactobacillus brevis'],10
+['Shinella zoogloeoides'],10
+['Octopus bimaculoides'],10
+['Enterobacteria phage RB51'],10
+['Rauvolfia serpentina'],10
+['Streptococcus pneumoniae serotype 2'],10
+['Mammalian orthoreovirus 3'],10
+['Streptantibioticus cattleyicolor'],9
+['Mentha piperita'],9
+['Phocaeicola vulgatus'],9
+['Haloferax mediterranei'],9
+['Solanum melongena'],9
+['Streptomyces vinaceus'],9
+['Saccharopolyspora erythraea'],9
+['Pyrobaculum calidifontis'],9
+['Thermoplasma volcanium'],9
+['Poliovirus type 3'],9
+['Phytolacca americana'],9
+['Canavalia brasiliensis'],9
+['Streptomyces peucetius'],9
+['Phaeodactylum tricornutum'],9
+['Bifidobacterium longum subsp. longum'],9
+"['Homo sapiens', 'Pyrococcus abyssi']",9
+['Pseuderanthemum haikangense'],9
+"['Severe acute respiratory syndrome coronavirus', 'Enterobacteria phage T4']",9
+['Nonomuraea gerenzanensis'],9
+['Clostridium botulinum'],9
+['Streptomyces sp. SCSIO 01934'],9
+['Unknown (ancestral species)'],9
+['Ruegeria lacuscaerulensis ITI-1157'],9
+['Zea mays subsp. mays'],9
+['Thermococcus profundus'],8
+['Sesamum indicum'],8
+['Streptomyces exfoliatus'],8
+['Lactiplantibacillus plantarum JDM1'],8
+['Sphingobium sp.'],8
+['Paenibacillus glycanilyticus'],8
+['Jeotgalibacillus marinus'],8
+['Desulfofustis sp. PB-SRB1'],8
+['Nicotiana benthamiana'],8
+['Pseudomonadota bacterium'],8
+['Thermoanaerobacter thermohydrosulfuricus'],8
+['Legionella pneumophila'],8
+['Heterocephalus glaber'],8
+['Salmonella enterica'],8
+['Fischerella ambigua'],8
+['Betula pendula'],8
+['Aspergillus japonicus'],8
+['Psychrobacter arcticus'],8
+['Bacillus amyloliquefaciens'],8
+['Tetranychus urticae'],8
+['Stenotrophomonas sp. CW117'],8
+['Stenotrophomonas acidaminiphila'],8
+['Murine norovirus GV/CR10/2005/USA'],8
+['Human rhinovirus 16'],8
+['Roseobacter denitrificans  (Erythrobacter sp. )'],8
+['Thomasclavelia ramosa'],8
+['Christella parasitica'],8
+['Clostridioides difficile NAP08'],8
+['Oleispira antarctica'],8
+['Streptomyces cinnabarigriseus'],8
+['Streptomyces coelicolor'],8
+['Bradyrhizobium japonicum'],8
+['Trypanosoma brucei'],8
+['Naja sagittifera'],8
+['Oxalobacter formigenes'],8
+['Cyclocybe aegerita'],8
+['Solenopsis invicta'],8
+['Dengue virus type 2'],8
+['Bothrops insularis'],8
+['Acidianus filamentous virus 1'],8
+['Pan troglodytes'],8
+['Thermoascus aurantiacus'],8
+['Chromohalobacter salexigens'],8
+['Desulfocurvibacter africanus'],8
+['Brevundimonas diminuta'],7
+['Ornithodoros moubata'],7
+['Stevia rebaudiana'],7
+['Burkholderia cenocepacia'],7
+"['Mus musculus', 'Eptatretus burgeri']",7
+['Streptococcus uberis'],7
+['Prescottella equi 103S'],7
+['Legionella pneumophila subsp. pneumophila'],7
+['Mangifera indica'],7
+['Planktothrix agardhii'],7
+['Bordetella pertussis'],7
+['Recombinant vesicular stomatitis Indiana virus rVSV-G/GFP'],7
+['Acidithiobacillus ferrooxidans  (Ferrobacillus ferrooxidans )'],7
+['Human immunodeficiency virus type 2 subtype A'],7
+['Pseudomonas sp'],7
+"['Homo sapiens', 'Caenorhabditis elegans']",7
+['Saccharomyces pastorianus'],7
+['Escherichia coli 536'],7
+['Citrus sinensis'],7
+['Fragaria ananassa'],7
+['Pyrenochaetopsis sp'],7
+['Naja atra'],7
+['Yersinia enterocolitica'],7
+['Psychrobacter cryohalolentis'],7
+['Brassica juncea'],7
+['Acinetobacter baylyi'],7
+['Burkholderia thailandensis'],7
+['Streptomyces alboniger'],7
+['Rhodococcus sp. M8'],7
+['Xanthomonas oryzae pv. oryzae'],7
+['Ramazzottius varieornatus'],7
+['Plasmodium yoelii yoelii'],7
+['Dickeya dadantii'],7
+['Yersinia enterocolitica serotype O:8 / biotype 1B'],7
+['Streptomyces hygroscopicus'],7
+['Santalum album'],7
+['Caulobacter vibrioides'],7
+['Candida glabrata'],7
+['Sulfurospirillum deleyianum'],7
+['Citrobacter freundii'],7
+['Cryptococcus neoformans var. neoformans serotype D'],7
+['Ruegeria pomeroyi'],7
+['Streptomyces melanosporofaciens'],6
+['Bifidobacterium longum'],6
+['Bacillus subtilis subsp. natto'],6
+['Vibrio sp.'],6
+['Chikungunya virus'],6
+['Phaseolus angularis'],6
+['Talaromyces marneffei'],6
+['Thermus parvatiensis'],6
+['Aquincola tertiaricarbonis'],6
+['Bifidobacterium bifidum S17'],6
+['Malassezia globosa'],6
+['Roseovarius nubinhibens'],6
+['Mycobacterium bovis'],6
+['metagenome'],6
+['Gibberella zeae'],6
+['Streptomyces marincola'],6
+['Francisella tularensis subsp. tularensis'],6
+['Porcine torovirus'],6
+['Epiphyas postvittana'],6
+['Streptococcus pyogenes'],6
+['Camelus bactrianus'],6
+['Giardia intestinalis'],6
+['Bacillus thuringiensis HD-771'],6
+['Photorhabdus laumondii subsp. laumondii'],6
+['Ralstonia solanacearum'],6
+['Cloacimonas acidaminovorans'],6
+['Simian immunodeficiency virus'],6
+['Penicillium brasilianum'],6
+['Chlorobium limicola'],6
+"['Pseudomonas phage OBP', 'Enterobacteria phage T4']",6
+['Streptococcus pyogenes MGAS1882'],6
+['Bacillus pumilus'],6
+['Acidovorax sp. MR-S7'],6
+['Nitrosomonas europaea'],6
+['Phaeosphaeria nodorum'],6
+['Actinoalloteichus sp. WH1-2216-6'],6
+['Streptomyces platensis'],6
+['Bacillus thuringiensis'],6
+['Shewanella putrefaciens'],6
+['Janibacter sp. HTCC2649'],6
+['Vibrio vulnificus'],6
+['Halobacillus halophilus'],6
+['Pseudomonas pavonaceae'],6
+['Amycolatopsis orientalis'],6
+['Shewanella loihica'],6
+['Prunus persica'],6
+['Metallosphaera sedula'],6
+['Chloracidobacterium thermophilum'],6
+['Reovirus type 3'],6
+['Gluconobacter japonicus'],6
+['Atropa belladonna'],6
+['Hypocrea atroviridis'],6
+['Kuenenia stuttgartiensis'],6
+['Acetivibrio thermocellus'],6
+['Gloydius halys'],6
+['Cavia porcellus'],6
+['Thauera chlorobenzoica'],6
+['Acidithiobacillus ferrooxidans'],6
+['Morus nigra'],6
+['Tick-borne encephalitis virus European subtype'],6
+['Proteus vulgaris'],6
+['Streptomyces sp. Tu6071'],6
+"['Severe acute respiratory syndrome coronavirus 2', 'Enterobacteria phage T4']",6
+['Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)'],6
+['Odontosoria chusana'],6
+['Bacillus cereus SJ1'],6
+['Pseudomonas aeruginosa 2192'],6
+['Crocodylus porosus'],6
+['Plasmodium vivax (strain Salvador I)'],6
+['Bothrops pirajai'],6
+['Xanthobacter autotrophicus'],6
+['Ophiostoma piceae'],6
+['Jeotgalicoccus sp. ATCC 8456'],5
+['Alkalihalobacillus alcalophilus ATCC 27647 = CGMCC 1.3604'],5
+['Tolypothrix sp. PCC 7601'],5
+['Salinibacter ruber'],5
+['Phaeocystis'],5
+['Saccharophagus degradans'],5
+['Guillardia theta (strain CCMP2712)'],5
+['Alicyclobacillus acidocaldarius subsp. acidocaldarius'],5
+['Entacmaea quadricolor'],5
+['Culex quinquefasciatus'],5
+['Phytophthora sojae'],5
+['Populus trichocarpa'],5
+['Bungarus caeruleus'],5
+['Shewanella frigidimarina'],5
+['Cylindrospermum stagnale PCC 7417'],5
+['Streptomyces avidinii'],5
+['Heterobasidion irregulare'],5
+"[""Synechococcus sp. (strain JA-2-3B'a)""]",5
+['Homarus gammarus'],5
+['Plantago major'],5
+['Parageobacillus caldoxylosilyticus NBRC 107762'],5
+['Cannabis sativa'],5
+['Klebsiella aerogenes'],5
+['Mycolicibacterium thermoresistibile'],5
+['Mesomycoplasma ovipneumoniae 14811'],5
+['Cupriavidus sp. P4-10-C'],5
+['Mucor circinelloides'],5
+['Streptomyces griseoflavus'],5
+['Bacillus subtilis PY79'],5
+['Pangolin coronavirus'],5
+['Pseudomonas amygdali pv. tabaci'],5
+['Acinetobacter baumannii AYE'],5
+['Vulcanisaeta moutnovskia'],5
+['Clostridiales bacterium oral taxon 876 str. F0540'],5
+['Methanomethylophilus alvus'],5
+['Artocarpus integer'],5
+['Diploptera punctata'],5
+['Montipora efflorescens'],5
+['Kitasatospora setae'],5
+['Wolinella succinogenes'],5
+['Alkalilimnicola ehrlichii'],5
+['Bovine enterovirus'],5
+['Azotobacter vinelandii (strain DJ / ATCC BAA-1303)'],4
+['Escherichia phage P2'],4
+['Bacillus spizizenii'],4
+['Achromobacter cycloclastes'],4
+"['Homo sapiens', 'Desulfovibrio vulgaris']",4
+['Lachancea thermotolerans'],4
+['Human rhinovirus 2'],4
+['Chimeric peptide'],4
+['Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)'],4
+"['Mus musculus', 'Rattus norvegicus']",4
+['Hepatitis B virus genotype D subtype ayw (isolate France/Tiollais/1979)'],4
+['uncultured bacterium esnapd13'],4
+['Granulicella tundricola'],4
+['Campylobacter jejuni BJ-CJGB96299'],4
+['Vipera ammodytes meridionalis'],4
+['Anopheles darlingi'],4
+['Streptomyces purpurascens'],4
+['Trypanosoma brucei brucei (strain 927/4 GUTat10.1)'],4
+['Rhodococcus ruber'],4
+['Mycobacterium ulcerans'],4
+['Diutina rugosa'],4
+['Penicillium roqueforti'],4
+['Thermus scotoductus (strain ATCC 700910 / SA-01)'],4
+['Ciona robusta'],4
+['Calotropis gigantea'],4
+['Bifidobacterium dentium ATCC 27679'],4
+['Echovirus E18'],4
+['Ficedula albicollis'],4
+['uncultured marine organism'],4
+['Clostridium kluyveri'],4
+['Kitasatospora'],4
+['Streptomyces sp. B9173'],4
+['Emericella nidulans'],4
+['Ectothiorhodospira haloalkaliphila'],4
+['Cercospora beticola'],4
+['Hapalosiphon welwitschii UH IC-52-3'],4
+['Actinosynnema pretiosum subsp. pretiosum'],4
+['Thermoproteus tenax'],4
+['Parengyodontium album'],4
+['Pseudomonas phage OBP'],4
+['Proteus mirabilis'],4
+['Thermocrispum sp. RD004668'],4
+"['Homo sapiens', 'Bos taurus']",4
+['Norwalk virus'],4
+['Streptomyces sp. QL37'],4
+['Sorangium cellulosum  (Polyangium cellulosum )'],4
+['Emericella variicolor'],4
+['Pseudonocardia thermophila'],4
+['Aspergillus nidulans'],4
+['Tripterygium wilfordii'],4
+['Eimeria tenella'],4
+['Candidatus Nitrosotalea devanaterra'],4
+['Lama glama'],4
+['Nisaea denitrificans DSM 18348'],4
+['Streptomyces showdoensis'],4
+['Enterobacter sp.'],4
+['Pseudomonas sp. HMSC75E02'],4
+['Lacticaseibacillus rhamnosus HN001'],4
+['African swine fever virus'],4
+['Phaseolus acutifolius'],4
+['Bothrops jararacussu'],4
+['Canavalia gladiata'],4
+['Paraburkholderia xenovorans'],4
+['Desulfococcus multivorans'],4
+['Escherichia coli S88'],4
+['Burkholderia cenocepacia PC184'],4
+['Clostridium sardiniense'],4
+['Rhizobium sp. MX-45'],4
+['Rhodnius prolixus'],4
+['Thermogutta terrifontis'],4
+['Oplophorus gracilirostris'],4
+['Streptomyces pristinaespiralis'],4
+['Clostridium perfringens D'],4
+['Doryteuthis pealeii'],4
+['Shewanella benthica'],4
+['Haloarcula vallismortis'],4
+['Streptomyces bingchenggensis'],4
+['Aspergillus oryzae'],4
+['Pectobacterium atrosepticum'],4
+['Streptomyces cyanogenus'],4
+"['Saccharomyces cerevisiae', 'Burkholderia pseudomallei']",4
+['Prochlorococcus marinus'],4
+['Burkholderia lata'],4
+['Thermodesulfovibrio yellowstonii'],4
+['Malus domestica'],4
+['Methylorubrum extorquens'],4
+['Thermomonospora curvata'],4
+['Trichormus variabilis'],4
+['Streptomyces rubellomurinus'],4
+['Marinobacter nauticus'],4
+['Pseudomonas savastanoi pv. phaseolicola  (Pseudomonas syringae pv. phaseolicola )'],4
+['Influenza A virus (A/RI/5+/1957)'],4
+['Enterococcus casseliflavus'],4
+['Neisseria mucosa'],4
+['Nitratidesulfovibrio vulgaris RCH1'],4
+"['Renibacterium salmoninarum', 'Archaeoglobus fulgidus']",4
+"['Homo sapiens', 'Clostridium pasteurianum']",4
+['Brucella ovis'],4
+['Panicum virgatum'],4
+['Haemonchus contortus'],4
+['Natrinema thermotolerans'],4
+['Ectocarpus siliculosus'],4
+['Cryphonectria parasitica'],4
+['Zaire ebolavirus'],4
+['Coccidioides immitis'],4
+['Alcanivorax borkumensis'],4
+['Micromonospora chersina'],4
+['Mouse mammary tumor virus'],4
+['Alternaria alternata'],3
+['Lactobacillus johnsonii'],3
+['Rhodococcus rhodochrous'],3
+['Coxsackievirus A9'],3
+['Alkalihalophilus pseudofirmus'],3
+['Mycetohabitans rhizoxinica'],3
+['Streptomyces xiamenensis'],3
+['Pygoscelis papua'],3
+['Burkholderia vietnamiensis'],3
+['Feline coronavirus'],3
+['Pectobacterium carotovorum subsp. carotovorum'],3
+['Neotermes koshunensis'],3
+['Rift valley fever virus'],3
+['Salmonella paratyphi A'],3
+['Reovirus type 1'],3
+['Paraglaciecola sp. T6c'],3
+['Limnothrix sp. CACIAM 69d'],3
+['Tsukamurella paurometabola'],3
+['Ignavibacterium album'],3
+['Canavalia rosea'],3
+['Thermocrispum municipale'],3
+['Marinomonas primoryensis'],3
+['Lactobacillus gasseri'],3
+['Musca domestica'],3
+['Leptospira interrogans serogroup Icterohaemorrhagiae serovar Lai'],3
+['Lacticaseibacillus casei DSM 20011 = JCM 1134 = ATCC 393'],3
+['Glycyrrhiza glabra'],3
+['Streptomyces griseolus'],3
+['Scytonema sp. PCC 10023'],3
+['Tabanus yao'],3
+['Coxsackievirus B5'],3
+['uncultured Desulfobacterium sp'],3
+['Streptomyces griseus'],3
+['Scytalidium lignicola'],3
+['Dysgonomonas mossii DSM 22836'],3
+['Spondweni virus'],3
+['Akkermansia muciniphila'],3
+['Streptomyces collinus'],3
+['Poliovirus type 2'],3
+['Enterovirus F'],3
+['Influenza A virus (A/California/07/2009)'],3
+['Phaseolus vulgaris'],3
+['Lyngbya majuscula'],3
+['Streptomyces atroolivaceus'],3
+['Linum usitatissimum'],3
+"['Photorhabdus laumondii subsp. laumondii', 'Enterobacteria phage T4']",3
+['Ideonella sakaiensis'],3
+"['Pseudomonas phage phiKZ', 'Enterobacteria phage T4']",3
+['Flavonifractor plautii ATCC 29863'],3
+['Paracoccaceae'],3
+['Acinetobacter radioresistens'],3
+['Thermoanaerobacter italicus'],3
+['Bacteroides fragilis'],3
+['Ancylostoma ceylanicum'],3
+['Clitoria ternatea'],3
+['Delftia acidovorans'],3
+['Streptomyces hygroscopicus subsp. hygroscopicus'],3
+['Mycolicibacterium smegmatis'],3
+['Brachypodium distachyon'],3
+['Chaetomium globosum'],3
+['Ambystoma mexicanum'],3
+['Thrixopelma pruriens'],3
+['Epstein-Barr virus'],3
+['Pseudomonas nitroreducens'],3
+['Alicyclobacillus acidoterrestris'],3
+['Flavobacterium sp.'],3
+['Levilactobacillus brevis ATCC 14869 = DSM 20054'],3
+['Capsella rubella'],3
+['Trichoplax sp. H2'],3
+['Escherichia coli O104:H4 str. 2009EL-2071'],3
+['Sphingobium indicum'],3
+['Enterocloster bolteae 90A9'],3
+['Oryza sativa'],3
+['Streptomyces viridochromogenes'],3
+['Papaver somniferum'],3
+['Bordetella bronchiseptica (strain ATCC BAA-588 / NCTC 13252 / RB50)'],3
+['Hevea brasiliensis'],3
+['Methylacidiphilum infernorum'],3
+['Bat SARS-like coronavirus WIV1'],3
+['Streptomyces filamentosus'],3
+['Novosphingobium sp. MBES04'],3
+['Zika virus'],3
+['Neisseria meningitidis 8013'],3
+['hepatitis C virus genotype 1a'],3
+['Festuca elata'],3
+['Thermobifida fusca'],3
+['Variovorax paradoxus'],3
+['Archaeoglobus fulgidus DSM 8774'],3
+['Civet SARS CoV 007/2004'],3
+['Acinetobacter sp. NEB 394'],3
+['Sulfurisphaera tokodaii'],3
+['Beta vulgaris'],3
+['Thermus thermophilus HB8'],3
+['Choristoneura fumiferana'],3
+['Streptomyces seoulensis'],3
+"['Mus musculus', 'Enterobacteria phage T4']",3
+['Lachnospira eligens'],3
+['Rhipicephalus appendiculatus'],3
+['Sorangium cellulosum'],3
+['Streptococcus mutans serotype c'],3
+['Sphaerobacter thermophilus'],3
+['Daboia russelii pulchella'],3
+['Rippkaea orientalis'],3
+['Psychromonas sp.'],2
+['Crinalium epipsammum PCC 9333'],2
+['Caldibacillus thermoamylovorans'],2
+['Priestia sp. P5'],2
+['Acetobacter aceti'],2
+['Amyelois transitella'],2
+['Ochrobactrum sp. T63'],2
+['Nesterenkonia sp. 10004'],2
+['Trichoderma harzianum'],2
+['Gloeocapsa sp. PCC 7513'],2
+['Desulfitobacterium hafniense'],2
+['Trypanosoma brucei equiperdum'],2
+['Salvia officinalis'],2
+['Sinapis alba'],2
+"['Homo sapiens', 'Human papillomavirus type 18']",2
+['Nicotiana sylvestris'],2
+['Echovirus E11'],2
+['Photobacterium leiognathi'],2
+['Nocardiopsis halophila'],2
+['Legionella hackeliae'],2
+['Phoma'],2
+['Thermococcus paralvinellae'],2
+['Sinopodophyllum hexandrum'],2
+['Echovirus E30'],2
+['Aerococcus viridans (strain ATCC 11563 / DSM 20340 / CCUG 4311 / JCM 20461 / NBRC 12219 / NCTC 8251 / M1)'],2
+['Echovirus E3'],2
+['Carica papaya'],2
+['Phanerodontia chrysosporium'],2
+['Bacteroides xylanisolvens XB1A'],2
+['Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC)'],2
+['Swine vesicular disease virus'],2
+['Nakamurella multipartita'],2
+['Aneurinibacillus thermoaerophilus'],2
+['Chloroflexus aurantiacus (strain ATCC 29366 / DSM 635 / J-10-fl)'],2
+['Canavalia lineata'],2
+['Rhodamnia argentea'],2
+['Rhyparobia maderae'],2
+['Hepacivirus hominis'],2
+['Anopheles gambiae str. PEST'],2
+['Momordica balsamina'],2
+['Pseudomonas syringae pv. tomato'],2
+['Arthrobacter globiformis NBRC 12137'],2
+['Aspergillus aculeatus'],2
+['Escherichia coli DEC6A'],2
+['Thermotoga sp.'],2
+['Human rhinovirus 1A'],2
+['Influenza A virus (A/Victoria/3/1975(H3N2))'],2
+['Helicobacter hepaticus'],2
+['Cutibacterium acnes'],2
+['[Bacillus] caldolyticus'],2
+['Escherichia coli BW2952'],2
+"['Mus musculus', 'Escherichia coli']",2
+['Pseudomonas migulae'],2
+['Candida auris'],2
+['Fusarium oxysporum'],2
+['Escherichia coli DH1'],2
+['Streptomyces sp. MK730-62F2'],2
+"['Homo sapiens', 'Thermus thermophilus']",2
+['Biomphalaria glabrata'],2
+['Alloalcanivorax dieselolei'],2
+['Streptomyces olivochromogenes'],2
+['Spatholobus parviflorus'],2
+['Desulfovibrio desulfuricans'],2
+['Escherichia phage 186'],2
+['Phytophthora cinnamomi'],2
+['Megasphaera elsdenii'],2
+['Photorhabdus asymbiotica subsp. asymbiotica'],2
+['Yersinia pseudotuberculosis serotype O:3'],2
+['Streptomyces chartreusis'],2
+['Eggerthella lenta'],2
+['Aspergillus flavus'],2
+['Thermomicrobium roseum'],2
+['Acetivibrio cellulolyticus'],2
+['Bacillus sonorensis L12'],2
+['Streptomyces pyridomyceticus'],2
+['Shigella flexneri serotype 5b'],2
+['Rothia nasimurium'],2
+['Thermoactinomyces vulgaris'],2
+['Talaromyces verruculosus'],2
+['Schistosoma mansoni'],2
+['Indibacter alkaliphilus'],2
+['Halorubrum ezzemoulense'],2
+['Phytophthora cryptogea'],2
+['Selenomonas ruminantium'],2
+['Panus similis'],2
+['Methanothermobacter marburgensis'],2
+['Hypoxylon sp. EC38'],2
+['Sarocladium schorii (Acremonium strictum )'],2
+['Streptococcus gordonii'],2
+['Nemophila menziesii'],2
+['Clostridium phage phiSM101'],2
+['Dinoroseobacter shibae'],2
+"['Streptomyces purpurascens', 'Streptomyces peucetius', 'Streptomyces tsukubensis']",2
+['Chrysanthemum morifolium'],2
+['Fontimonas thermophila'],2
+['Astragalus membranaceus'],2
+"['Streptomyces peucetius', 'Streptomyces tsukubensis']",2
+['Chlorobaculum parvum'],2
+['Gluconobacter oxydans'],2
+['Xenopsylla cheopis'],2
+['Colwellia psychrerythraea'],2
+['Enhygromyxa salina'],2
+['Campylobacter concisus'],2
+['Coxsackievirus A6'],2
+['Erwinia tracheiphila'],2
+['Synechocystis sp. CACIAM 05'],2
+['Fervidobacterium gondwanense DSM 13020'],2
+['Haemophilus influenzae R2866'],2
+['Azospirillum sp.'],2
+['Pseudogluconobacter saccharoketogenes'],2
+['Neisseria meningitidis serogroup A / serotype 4A'],2
+['Purpureocillium lilacinum'],2
+['Mesorhizobium japonicum'],2
+['Alcaligenes sp. AL3007'],2
+['Platynereis dumerilii'],2
+['Streptococcus pyogenes serotype M28'],2
+['Cronobacter turicensis'],2
+['Phormia regina'],2
+['Taxus brevifolia'],2
+['Streptomyces coelicolor A3(2)'],2
+['Rotavirus A'],2
+['Human enterovirus 71'],2
+['Haloferax volcanii'],2
+['Bordetella pertussis Tohama I'],2
+['Pseudomonas sp. EGD-AKN5'],2
+['Periplaneta americana'],2
+['Mus'],2
+['Encephalitozoon cuniculi'],2
+['Norovirus Hu/GII.1/7EK/Hawaii/1971/USA'],2
+['Coccomyxa subellipsoidea'],2
+['Saccharomonospora viridis'],2
+['Bifidobacterium longum subsp. infantis'],2
+['Streptomyces spectabilis'],2
+['Neotoma lepida'],2
+['Echovirus E7'],2
+['Limtongozyma cylindracea'],2
+['Caldanaerobacter subterraneus subsp. tengcongensis'],2
+['Advenella mimigardefordensis'],2
+['Micromonospora griseorubida'],2
+['Pieris brassicae'],2
+['Jannaschia sp.'],2
+['Mycobacterium avium'],2
+['Echovirus 1'],2
+['Streptomyces sp. MJ635-86F5'],2
+['Anisodus acutangulus'],2
+['Moraxella bovoculi'],2
+['Saimiriine herpesvirus 2'],2
+"['Homo sapiens', 'Escherichia coli', 'Clostridium pasteurianum']",2
+['Vaccinia virus'],2
+['Thermoanaerobacterium thermosaccharolyticum'],2
+['Rhizomucor miehei'],2
+['Rhizobium leguminosarum bv. trifolii'],2
+['Burkholderia mallei'],2
+['Hepatitis C virus genotype 2a'],2
+['Planctopirus limnophila'],2
+['Campylobacter lari'],2
+['Bothrops pauloensis'],2
+['Burkholderia cenocepacia BC7'],2
+['Piromyces sp.'],2
+['Streptomyces muensis'],2
+['Hapalosiphon welwitschii UTEX B 1830'],2
+['Ruegeria lacuscaerulensis'],2
+['Limnothrix sp. KNUA012'],2
+['Human herpesvirus 1'],2
+['Reston ebolavirus'],2
+['Oscillatoria sp'],2
+['Vitis rotundifolia'],2
+['Methylobacillus flagellatus'],2
+['Listeria monocytogenes'],2
+['Aspergillus parasiticus'],2
+['Entamoeba histolytica'],2
+['Marasmius rotula'],2
+['Haemophilus influenzae PittII'],2
+['Bubalus bubalis'],2
+['Gossypium arboreum'],2
+"['Enterobacteria phage T4', 'Staphylococcus aureus']",2
+['Exiguobacterium sp.'],2
+['Eubacterium ventriosum ATCC 27560'],2
+['Anopheles stephensi'],2
+['Leptospirillum rubarum'],2
+['Oceanobacillus iheyensis'],2
+['Nomascus leucogenys'],2
+['Strongyloides stercoralis'],2
+['Burkholderia ambifaria'],2
+['Ruminococcus gnavus'],2
+['Synechococcus sp. RS9917'],2
+['Agrobacterium radiobacter'],2
+['Limnospira maxima'],2
+"['Escherichia coli', 'Homo sapiens']",2
+['Deinococcus geothermalis'],2
+['Archangium violaceum'],2
+['Sinorhizobium fredii'],2
+['Streptomyces sp. Tu 6176'],2
+['Pseudomonas phage phiKZ'],2
+['Abies grandis'],2
+['Schistosoma japonicum'],2
+['Nicotiana plumbaginifolia'],2
+['Hirschia baltica'],2
+['Piper methysticum'],2
+['Necator americanus'],2
+['Halorhodospira halochloris str. A'],2
+['Zea mays subsp. parviglumis'],2
+['Tritrichomonas foetus'],2
+['Shewanella denitrificans'],2
+['Echis carinatus'],2
+['Gerbera hybrida'],2
+['Alopecurus myosuroides'],2
+['Penicillium janthinellum'],2
+['Pseudo-nitzschia multiseries'],2
+['Hepatitis C virus subtype 1b'],2
+['Poliovirus 2'],1
+['Mesobuthus martensii'],1
+['Nostoc ellipsosporum'],1
+['Iris domestica'],1
+['Camelina sativa'],1
+['Oceanicola granulosus'],1
+['Manduca sexta'],1
+['Legionella drancourtii LLAP12'],1
+['Deschampsia antarctica'],1
+['Plasmodium knowlesi'],1
+['Sphingomonas sp. PAMC 26605'],1
+"['Saccharomyces cerevisiae', 'Klebsiella pneumoniae']",1
+['soil metagenome'],1
+['Agrobacterium tumefaciens'],1
+['Methanosarcina thermophila'],1
+['Heliobacterium modesticaldum'],1
+['Paenibacillus larvae subsp. larvae'],1
+['Methanothrix soehngenii'],1
+['Pseudomonas savastanoi pv. phaseolicola'],1
+['Korarchaeum cryptofilum'],1
+['Setaria italica'],1
+['Taeniopygia guttata'],1
+['Aeromonas hydrophila'],1
+['Unknown peptide'],1
+['Chitinophaga pinensis'],1
+['enterovirus D68'],1
+['Zygosaccharomyces rouxii'],1
+['Mycobacterium tuberculosis KZN 4207'],1
+['Brassica oleracea'],1
+['Oncorhynchus mykiss'],1
+['Monarthropalpus flavus'],1
+['Escherichia coli O45:K1'],1
+['Streptomyces nodosus'],1
+['Senecavirus A'],1
+['Sphingomonas sp.'],1
+['Streptomyces sp. CNQ431'],1
+['Streptomyces galilaeus'],1
+['Duganella sp. ZLP-XI'],1
+['Paenibacillus sp'],1
+['Leishmania infantum'],1
+['Megalodesulfovibrio gigas'],1
+['Gordonia sp. P8219'],1
+['Acinetobacter bereziniae NIPH 3'],1
+['uncultured archaeon MedDCM-OCT-S05-C57'],1
+['gamma proteobacterium HdN1'],1
+['Roseburia intestinalis XB6B4'],1
+['Streptomyces sp. SN-593'],1
+['Photobacterium sp. J15'],1
+['Shewanella sp'],1
+['Kitagawia praeruptora'],1
+['Rous sarcoma virus subgroup C'],1
+['Escherichia coli 2.3916'],1
+['Colletotrichum lupini var. setosum'],1
+['Borreliella burgdorferi'],1
+['Gloeocapsa sp. PCC 7428'],1
+['Staphylococcus aureus (strain NCTC 8325 / PS 47)'],1
+['Aetokthonos hydrillicola Thurmond2011'],1
+['Takifugu rubripes'],1
+['Methanoculleus thermophilus'],1
+['Methylosinus trichosporium'],1
+['Pseudomonas sp. TCU-HL1'],1
+['Human papillomavirus 11'],1
+['Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)'],1
+['Siraitia grosvenorii'],1
+['Human adenovirus D serotype 8'],1
+['Mycoplasma pneumoniae'],1
+['Feline immunodeficiency virus'],1
+['Bifidobacterium adolescentis'],1
+['Eremococcus coleocola ACS-139-V-Col8'],1
+['Thogoto virus (isolate SiAr 126)'],1
+['Variovorax sp. RA8'],1
+['Flaveria trinervia'],1
+['Gamma-proteobacterium EBAC31A08'],1
+['Salipaludibacillus agaradhaerens'],1
+['Lens culinaris'],1
+['Vaccinia virus (strain Ankara)'],1
+['Burkholderia cepacia'],1
+['Mason-Pfizer monkey virus'],1
+['Streptococcus agalactiae serotype V'],1
+['Chikungunya virus (strain S27-African prototype)'],1
+['Streptomyces arenae'],1
+['Ruellia brittoniana'],1
+['Caldicellulosiruptor saccharolyticus'],1
+['Methanothermus fervidus'],1
+['Heloderma suspectum'],1
+['De novo designed protein'],1
+"['Aequorea victoria', 'Takifugu rubripes']",1
+['Enterovirus A71'],1
+['Bos indicus'],1
+['Moorena producens 3L'],1
+['Pseudomonas jessenii'],1
+['Mycobacterium tuberculosis C'],1
+['Rosa hybrid cultivar'],1
+['Streptococcus suis'],1
+['Trichomonas vaginalis'],1
+['Rhodotorula toruloides'],1
+['Dendroaspis polylepis polylepis'],1
+['Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044'],1
+['Campylobacter jejuni subsp. jejuni PT14'],1
+['Brevibacillus parabrevis'],1
+['Androctonus australis'],1
+['Neisseria gonorrhoeae SK-93-1035'],1
+['Pelagibacter sp. (strain HTCC7211)'],1
+['Phormidium lapideum'],1
+['Plasmodium falciparum (isolate 3D7)'],1
+['Trueperella pyogenes'],1
+['Dengue virus type 4 (strain Philippines/H241/1956)'],1
+['Agkistrodon contortrix laticinctus'],1
+['Streptomyces sp. HK803'],1
+"['Escherichia coli', 'Aequorea victoria']",1
+['Acidilobus saccharovorans'],1
+['Japanese encephalitis virus'],1
+['Coxsackievirus B1 (strain Japan)'],1
+['Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 / NCTC 11168)'],1
+['Listeria monocytogenes serovar 1/2a (strain ATCC BAA-679 / EGD-e)'],1
+['Gibberella fujikuroi'],1
+['Bordetella parapertussis'],1
+"['Pyrococcus abyssi', 'Mus musculus']",1
+['Escherichia phage EcSzw-2'],1
+['Phyllomedusa sauvagei'],1
+['Coxsackievirus A24'],1
+['Talaromyces pinophilus'],1
+['Brevibacterium sterolicum'],1
+['Brucella abortus str. 2308 A'],1
+['Tequatrovirus T4'],1
+['Petromyzon marinus'],1
+['Gentiana triflora'],1
+['Eucalyptus grandis'],1
+['Human rhinovirus 14'],1
+['Sindbis virus'],1
+['Escherichia coli 110957'],1
+['Escherichia coli BL21'],1
+['Human adenovirus C serotype 2'],1
+['Echovirus E1'],1
+['Ciona intestinalis'],1
+['Pecten maximus'],1
+['Methanosaeta sp. PtaB.Bin005'],1
+['Helicobacter pullorum'],1
+['Yunnania penicillata'],1
+['Pseudomonas mendocina'],1
+['Verminephrobacter eiseniae'],1
+['Coxsackievirus A16 (strain Tainan/5079/98)'],1
+['Beauveria bassiana'],1
+['Mycobacteroides chelonae'],1
+['Norwalk-like virus'],1
+['Picrophilus torridus'],1
+['Pediculus humanus subsp. corporis'],1
+['Salmonella phage SPN3US'],1
+['Crimean-Congo hemorrhagic fever virus'],1
+['Saccharopolyspora spinosa'],1
+['Capparis masaikai'],1
+['Aspergillus sp'],1
+['Locusta migratoria'],1
+['Naja naja'],1
+['Streptomyces sp. Sp080513GE-23'],1
+['Leishmania donovani'],1
+['Pseudoalteromonas distincta'],1
+['Schizosaccharomyces pombe 972h-'],1
+['Pleurotus ostreatus'],1
+['Haemophilus influenzae R2846'],1
+['Streptomyces rapamycinicus  (Streptomyces hygroscopicus )'],1
+['Streptomyces sp. MSC090213JE08'],1
+['Bothrops atrox'],1
+['Streptococcus sp. group G'],1
+['Streptomyces platensis subsp. rosaceus'],1
+['Corynebacterium ammoniagenes'],1
+['Neisseria polysaccharea'],1
+['Drosophila lebanonensis'],1
+['Streptomyces longisporoflavus'],1
+['Chamberlinius hualienensis'],1
+['Physeter macrocephalus'],1
+['Hepatitis C virus (isolate 1)'],1
+['Paenisporosarcina sp. TG-14'],1
+['Streptococcus mutans'],1
+"['Streptomyces peucetius', 'Streptomyces sp. ZEA17I']",1
+['Stackebrandtia nassauensis'],1
+['Sterolibacterium denitrificans'],1
+['Corynebacterium sp.'],1
+['Zobellia galactanivorans'],1
+['Streptomyces griseocarneus'],1
+['Echinococcus granulosus'],1
+['Manihot esculenta'],1
+['Bemisia tabaci'],1
+['Elizabethkingia anophelis'],1
+['Actinobacillus succinogenes'],1
+['Shigella dysenteriae'],1
+['Aggregatibacter actinomycetemcomitans'],1
+['Uncultured bacterium HF130_AEPn_1'],1
+['Humicola insolens'],1
+['Nostoc flagelliforme CCNUN1'],1
+['Fischerella sp. SAG 46.79'],1
+['Thermoclostridium stercorarium'],1
+['Streptomyces violaceoruber'],1
+['Gloeobacter kilaueensis JS1'],1
+['Glycyrrhiza uralensis'],1
+['Acinetobacter baumannii WM99c'],1
+['Acinetobacter baumannii NIPH 410'],1
+['Fusarium sporotrichioides'],1
+['Odinarchaeota yellowstonii'],1
+['Anemonia sulcata'],1
+['Serratia sp.'],1
+['Vibrio nigripulchritudo'],1
+['Streptococcus agalactiae'],1
+['Coelastrella astaxanthina'],1
+['Camponotus japonicus'],1
+['Plectranthus scutellarioides'],1
+['Brevibacterium fuscum'],1
+['Desulfohalobium retbaense'],1
+['Pinus sylvestris'],1
+['Streptomyces glaucescens'],1
+['Leiurus hebraeus'],1
+['Streptomyces fradiae'],1
+['Selaginella moellendorffii'],1
+['Moorena bouillonii PNG'],1
+['Stutzerimonas stutzeri'],1
+['Bovine coronavirus'],1
+['Chelativorans sp.'],1
+['Paenibacillus sp.'],1
+['Bacillus methanolicus'],1
+['Pholiota squarrosa'],1
+['Macrophoma commelinae'],1
+['Streptomyces rochei'],1
+['Burkholderia glumae'],1
+['Helicoverpa armigera'],1
+['Parthenium argentatum'],1
+['Thermanaerovibrio acidaminovorans'],1
+['Lophonetta specularioides'],1
+['Bacillus sp. SG-1'],1
+['Aegle marmelos'],1
+['Streptococcus suis 05ZYH33'],1
+"['Pseudomonas putida', 'Spinacia oleracea']",1
+['Lacticaseibacillus rhamnosus Lc 705'],1
+['Coturnix japonica'],1
+['Salvia miltiorrhiza'],1
+['Bat coronavirus HKU4'],1
+['Rhodothermus marinus'],1
+['Candida albicans SC5314'],1
+['Artabotrys hexapetalus'],1
+['Thermococcus thioreducens'],1
+"['Shewanella oneidensis', 'Shewanella benthica']",1
+['Ruminiclostridium cellulolyticum'],1
