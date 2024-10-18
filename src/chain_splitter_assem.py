@@ -12,43 +12,53 @@ pdb_test_list.txt: file name of the pdbs and chains needed to be extracted
 
 import os
 from Bio import PDB
+from Bio.PDB import PDBParser, PDBIO, Select, MMCIFParser
+from Bio.PDB.mmcifio import MMCIFIO
+
+
 
 class ChainSplitter:
-    def __init__(self, out_dir=None):
+    def __init__(self, out_dir):
         """ Create parsing and writing objects, specify output directory. """
-        self.parser = PDB.PDBParser()
-        self.writer = PDB.PDBIO()
-        if out_dir is None:
-            out_dir = os.path.join(os.getcwd(), "chain_PDBs")
+        #self.parser = PDB.PDBParser()
+        #self.writer = PDB.PDBIO()
         self.out_dir = out_dir
 
-    def make_pdb(self, pdb_path, protein_chains, lipid_chains, lipid_resnames, overwrite=False, struct=None):
+    def make_pdb(self, pdb_path, protein_chains, lipid_chains, lipid_resnames, filetype='pdb'):
         """ Create a new PDB file containing only the specified chains.
-
         Returns the path to the created file.
-
-        :param pdb_path: full path to the crystal structure
-        :param chain_letters: iterable of chain characters (case insensitive)
-        :param overwrite: write over the output file if it exists
+        
+        pdb_path: the path of the original pdb/cif file
+        protein_chains, lipid_chains, lipid_resnames: the selections to retrieve
         """
-        
-
-        # Input/output files
-        (pdb_dir, pdb_fn) = os.path.split(pdb_path)
-        pdb_id = pdb_fn[3:7]
-        #out_name = "%s_%s.pdb" % (pdb_id, "".join(protein_chains))
-        out_name = pdb_id + '.pdb'
-        out_path = os.path.join(self.out_dir, out_name)
-        
-        
+                
         # Get structure, write new file with only given chains
-        if struct is None:
-            struct = self.parser.get_structure(pdb_id, pdb_path)
-        self.writer.set_structure(struct)
-        self.writer.save(out_path, select=SelectChains_ProtLipid(protein_chains, lipid_chains, lipid_resnames)) ## save the structure with the selected chains
+        if filetype == 'pdb':
+            # Input/output definition
+            (pdb_dir, pdb_fn) = os.path.split(pdb_path)
+            pdb_id = pdb_fn[3:7]
+            out_name = pdb_id + '.pdb'
+            out_path = os.path.join(self.out_dir, out_name)
+            # Obtain structures
+            struct = PDBParser().get_structure(pdb_id, pdb_path) #get the original structure (pdb)
+            io = PDB.PDBIO()
+            io.set_structure(struct)
+            io.save(out_path, select=SelectChains_ProtLipid(protein_chains, lipid_chains, lipid_resnames)) #save the structure with the selected chains
+        elif filetype == 'cif':
+            # Input/output definition
+            (pdb_dir, pdb_fn) = os.path.split(pdb_path)
+            pdb_id = pdb_fn[:4]
+            out_name = pdb_id + '.cif'
+            out_path = os.path.join(self.out_dir, out_name)
+            
+            # Obtain structures
+            struct =  MMCIFParser().get_structure(pdb_id, pdb_path)  #get the original structure (cif)
+            io = MMCIFIO()
+            io.set_structure(struct)
+            io.save(out_path, select=SelectChains_ProtLipid(protein_chains, lipid_chains, lipid_resnames)) #save the structure with the selected chains
 
         return out_path
-
+    
 
 
 class SelectChains_ProtLipid(PDB.Select):
@@ -73,7 +83,6 @@ class SelectChains_ProtLipid(PDB.Select):
             False
 
     def accept_residue(self, residue): 
-
         hetero_resnames = ["H_" + res for res in self.lipid_resnames]
         
         if residue.get_id()[0] in hetero_resnames: #accept if it is one of the lipids we want 

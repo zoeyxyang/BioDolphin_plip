@@ -9,6 +9,8 @@ import pathlib
 from src.chain_splitter_assem import *
 from src.chain_splitter_one import *
 from pathlib import Path
+from Bio import PDB
+from Bio.PDB import PDBParser, PDBIO, Select, MMCIFParser
 
 warnings.filterwarnings("ignore")
 
@@ -16,7 +18,8 @@ warnings.filterwarnings("ignore")
 # Functions for getting a list of elements to select in pdb:
 
 '''
-Get a text file of the pdbs and the chains and ccd selected
+Get a text file of the pdbs and the chains and ccd that are present in the dataset 
+(those are the list of all items with the elements that are supposed to be extracted for generating selected pdbs)
 '''
 def GetSelection(bdfile, mode='assembly'):
     # complex_PDB_ID, complex_Receptor_Chain, complex_Ligand_Chain, lipid_Ligand_ID_CCD
@@ -30,8 +33,6 @@ def GetSelection(bdfile, mode='assembly'):
         df_merged["complex_Ligand_Chain"] = df_merged["complex_Ligand_Chain"].apply(unique)
         df_merged["lipid_Ligand_ID_CCD"] = df_merged["lipid_Ligand_ID_CCD"].apply(unique)
         pathlib.Path('./data/assembly').mkdir(parents=True, exist_ok=True) 
-
-        #TODO: eleminate the ones that exist already in assembly
 
         df_merged.to_csv("./data/assembly/selection_assembly.txt", sep='\t', index=False, header=False)
         return "./data/assembly/selection_assembly.txt"
@@ -50,6 +51,7 @@ def GetSelection(bdfile, mode='assembly'):
 '''
 Subfunction of GetSelection
 '''
+#Get the unique chains/ccdID within each pdb
 def unique(strings):
     unique_items = list(set(strings.split(",")))
     unique_strings = ",".join(unique_items)
@@ -80,23 +82,38 @@ def GetSplitPDB(selectFile,  mode='assembly'):
                 lipid_chains = strings_list[2].split(",")
                 lipid_resnames = strings_list[3].split(",")
                 
-                org_pdbfile = f"./data/assembly/pdbs_selected/{pdb_id}.pdb"
-                if org_pdbpath.is_file():
+                sele_pdbfile = f"./data/assembly/pdbs_selected/{pdb_id}.pdb"
+                sele_ciffile = f"./data/assembly/pdbs_selected/{pdb_id}.cif"
+
+                if sele_pdbfile.is_file():
                     print(f'split pdb for {pdb_id} exist, skipping this pdb')
                     continue
-                else:
-                    print(f'getting split pdb: {pdb_id}')
-
-                pdb_fn = pdbList.retrieve_pdb_file(pdb_id, file_format='pdb', pdir=orgpdb_dir) #fetch the pdb from the pdb_id
                 
-                try:
-                    splitter.make_pdb(pdb_fn, protein_chains, lipid_chains, lipid_resnames) #create new pdbs with certain chain
-                    with open("./data/assembly/path_sele_all.txt", "a") as f:
-                        f.write(outdir+pdb_id+".pdb\n")
-                except:
-                    print(f"biopython can't get the structure: {pdb_id}") #TODO: these big structures don't have pdb (only cif available)
-                    with open("pdbs_nostruct.txt", "a") as f:
-                        f.write(pdb_id+"\n")
+                elif sele_ciffile.is_file():
+                    print(f'split cif for {pdb_id} exist, skipping this cif')
+                    continue
+                
+                else: #the split assembly pdb/cif doens't exist
+                    print(f'getting split structure for: {pdb_id}')
+                    try: #try getting pdb
+                        pdb_fn = pdbList.retrieve_pdb_file(pdb_id, file_format='pdb', pdir=orgpdb_dir) #fetch the pdb from the pdb_id
+                        splitter.make_pdb(pdb_fn, protein_chains, lipid_chains, lipid_resnames, filetype='pdb') #create new pdbs with certain chain
+                        with open("./data/assembly/path_sele_all.txt", "a") as f: #path_sele_all will store the path of those selected pdbs for later plip runs
+                            f.write(outdir+pdb_id+".pdb\n")
+                    except:
+                        try: #if no pdb, try getting cif instead
+                            cif_fn = pdbList.retrieve_pdb_file(pdb_id, file_format='mmCif', pdir=orgpdb_dir) #fetch the cif from the pdb_id
+                            splitter.make_pdb(cif_fn, protein_chains, lipid_chains, lipid_resnames, filetype='cif') 
+                            with open("./data/assembly/path_sele_all.txt", "a") as f: #path_sele_all will store the path of those selected pdbs for later plip runs
+                                f.write(outdir+pdb_id+".cif\n")
+                            
+                        except:
+                            print(f"######biopython can't get the structure: {pdb_id}#########")
+                            with open("pdbs_nostruct.txt", "a") as f:
+                                f.write(pdb_id+"\n")
+          
+          
+                       
                         
     elif mode == 'one2one':
         outdir = "./data/one2one/pdbs_selected/" #save the selected pdbs here

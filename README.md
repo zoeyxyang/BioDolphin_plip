@@ -10,16 +10,17 @@ Run plip to get the interaction results of all structures in BioDolphin
 download plip.simg in the BioDolphin_plip
 
 ## Place data
+`mkdir data`
 Place the updated BioDolphin file in `data\`. 
 
 
 
 ## Getting assembly structures and interactions:
-
+Assembly structures are all lipid proteins in each pdb. \
 **1. Getting structures with BioPython** \
-To get assembly chains (lipids can interact with multiple proteins) within each pdb: \
-`python get_pdbs.py --assembly` (or `sbatch run_get_pdbs.slurm` on cluster)\ 
---> This will produce pdbs with selected components in the directory `data/assembly/pdbs_selected/`\
+
+`python get_pdbs.py --assembly` (or `sbatch run_get_pdbs.slurm` on cluster) \ 
+--> This will produce pdbs with selected components in the directory `data/assembly/pdbs_selected/` \
 --> `path_sele_all.txt` will store a list of paths pointing to all these pdbs with selected components 
 
 
