@@ -1,9 +1,17 @@
+'''
+python>
+script to convert the plip result to json files for the plip result page on the website
+
+'''
+
 import csv
 import json
 import os
 import glob
 import pandas as pd
 from collections import defaultdict
+import argparse
+
 
 
 
@@ -14,19 +22,15 @@ Go through all plip pdb directories and write the paths
 '''
 def AddJson_allpdbs(resultpath='../plip_result/', outfile='../psenames.json', BioDolphin_path='./result/BioDolphin_vr1.1.txt'):
     pdb_names = os.listdir(resultpath)
-    #pdb_names= ['7x2c', '2lbv'] #for small test
     FullList = []
     BD2plip_dict = BD2plip_Mapping(BioDolphin_path=BioDolphin_path)
 
 
-    #i = 0
     for pdb in pdb_names:
         pdbid_lower, pdbid_upper, lipidnames, BDmapping = AddJson_pdb(pdb, resultpath, BD2plip_dict) 
         if pdbid_lower is not None:
             FullList.append(GenerateDict(pdbid_lower, pdbid_upper, lipidnames, BDmapping))
-        #i +=1
-        #if i >10:
-        #    break
+
 
     with open(outfile, "w") as f:
         json.dump(FullList, f, indent=4)  # indent for pretty formatting
@@ -34,12 +38,6 @@ def AddJson_allpdbs(resultpath='../plip_result/', outfile='../psenames.json', Bi
     return FullList
     
 
-    #with open(outfile, 'w') as f:
-    #    for pdb in pdb_names:
-    #        pdbid_lower, pdbid_upper, lipidnames, BDmapping = AddJson_pdb(pdb, resultpath) 
-    #        if pdbid_lower is not None:
-    #            FullList.append(GenerateDict(pdbid_lower, pdbid_upper, lipidnames, BDmapping))
-                #f.write(f'{pdbid_lower},{pdbid_upper},{lipidnames}\n')
 
 # A subfunction of AddJson_allpdbs
 def GenerateDict(pdbid_lower, pdbid_upper, lipidnames, BDmapping):
@@ -108,7 +106,7 @@ def csv_files_to_json(csv_files, json_file_path):
         json.dump(combined_data, json_file, indent=4)
 
 
-# A subfunction of AddJson_pdb #TODO
+# A subfunction of AddJson_pdb 
 def GetBDmapping(pdbid,lipidnames, BD2plip_dict):
     #print(f'pdbid: {pdbid}')
     #print(f'lipidnames: {lipidnames}')
@@ -176,11 +174,14 @@ def getplipcode(pdbid, lipidccd, lipidchain, lipidresnum):
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Add arguments')
+    parser.add_argument('-d','--dataset', help='dataset filename ex: BioDolphin_vr1.1_expand.txt in the data directory', default="BioDolphin_vr1.1_expand.txt", type=str, required=False)
+    args = parser.parse_args()
+    BDFILE_EXPAND = args.dataset
+    #prefix=BDFILE_EXPAND.replace("_strtag.txt", "")
+    
+    print(f'reading the file: {BDFILE_EXPAND} from ./data')
+    BioDolphin_path = f'./data/{BDFILE_EXPAND}'
 
-    print(AddJson_allpdbs(resultpath='./data/assembly/plip_result/', outfile='./data/assembly/psenames.json', BioDolphin_path='./result/BioDolphin_vr1.1.txt'))
-    #TODO: change this to json format
-    #mapping = {'lipidA': [], 'lipidB':[]}
-    #newdict = GenerateDict("1a05", "1A05", ["lipidA, lipidB"], mapping)
-    #print(newdict)
-
-    #print(BD2plip_Mapping())
+    AddJson_allpdbs(resultpath='./data/assembly/plip_result/', outfile='./data/assembly/psenames.json', BioDolphin_path=BioDolphin_path)
+    print(f'finished generating psenames.json in ./data/assembly')

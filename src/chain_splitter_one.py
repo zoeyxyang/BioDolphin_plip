@@ -5,34 +5,43 @@ BioPython functions to get pdbs that only have one protein and one lipid specifi
 
 import os
 from Bio import PDB
-
+from Bio.PDB import PDBParser, PDBIO, Select, MMCIFParser
+from Bio.PDB.mmcifio import MMCIFIO
 
 class ChainSplitter_one:
-    def __init__(self, out_dir=None):
+    def __init__(self, out_dir):
         """ Create parsing and writing objects, specify output directory. """
-        self.parser = PDB.PDBParser()
-        self.writer = PDB.PDBIO()
-        if out_dir is None:
-            out_dir = os.path.join(os.getcwd(), "chain_PDBs")
+        #self.parser = PDB.PDBParser()
+        #self.writer = PDB.PDBIO()
         self.out_dir = out_dir
 
-    def make_pdb(self, pdb_path, bd_id, pdb_id, protein_chain, lipid_chain, lipid_resname, lipid_resnum):
+    def make_pdb(self, pdbcif_path, bd_id, pdb_id, protein_chain, lipid_chain, lipid_resname, lipid_resnum, filetype='pdb'):
         """ Create a new PDB file containing only the specified chains.
-
         Returns the path to the created file.
-
         """
+        # Get structure, write new file with only given protein and lipid
+        if filetype == 'pdb':
+            # output files
+            out_name = bd_id + '.pdb'
+            out_path = os.path.join(self.out_dir, out_name)
+            
+            #get pdb structure from the pdbcif_path (retrieve it if not existed)       
+            struct = PDBParser().get_structure(pdb_id, pdbcif_path)
+            io = PDB.PDBIO()
+            io.set_structure(struct)
+            io.save(out_path, select=ResidueSelect(protein_chain, lipid_chain, lipid_resname, lipid_resnum)) ## save the structure with the selected chains
         
-        # output files
-        out_name = bd_id + '.pdb'
-        out_path = os.path.join(self.out_dir, out_name)
-        
-        #get pdb structure from the pdb_path (retrieve it if not existed)       
-        struct = self.parser.get_structure(pdb_id, pdb_path)
-        self.writer.set_structure(struct)
-        
-        self.writer.save(out_path, select=ResidueSelect(protein_chain, lipid_chain, lipid_resname, lipid_resnum)) ## save the structure with the selected chains
-        
+        elif filetype == 'cif':
+            # output files
+            out_name = bd_id + '.cif'
+            out_path = os.path.join(self.out_dir, out_name)
+
+            #get cif structure from the pdbcif_path (retrieve it if not existed)       
+            struct = MMCIFParser().get_structure(pdb_id, pdbcif_path)
+            io = MMCIFIO()
+            io.set_structure(struct)
+            io.save(out_path, select=ResidueSelect(protein_chain, lipid_chain, lipid_resname, lipid_resnum)) ## save the structure with the selected chains
+
         return out_path
 
 
@@ -46,7 +55,8 @@ class ResidueSelect(PDB.Select):
         self.ligand_chain = ligand_chain
         self.chains = [protein_chain, ligand_chain]
         self.ligand_resname = ligand_resname
-        self.ligand_resnum = int(ligand_resnum)
+        #self.ligand_resnum = int(ligand_resnum) #TODO: check
+        self.ligand_resnum = str(ligand_resnum)
 
     def accept_chain(self, chain):
         if chain.get_id() in self.chains:
@@ -62,7 +72,7 @@ class ResidueSelect(PDB.Select):
             return True
 
         # get lipid:
-        if (parentChain == self.ligand_chain) and (residue.get_id()[1] == self.ligand_resnum) and (residue.resname == self.ligand_resname): 
+        if (parentChain == self.ligand_chain) and (str(residue.get_id()[1]) == self.ligand_resnum) and (residue.resname == self.ligand_resname): 
             #print('got lipid')
             return True
                 

@@ -1,15 +1,15 @@
 #!/bin/bash
 
-pathfile='./data/assembly/path_sele_all.txt'
-fileprefix='./data/assembly/path_sele'
+pathfile='./data/assembly/path_plip_all.txt'
+fileprefix='./data/assembly/path_plip'
 
 split -l 1000 $pathfile $fileprefix -x --additional-suffix=".txt"
 
 
 # loop over all path files to submit slurm script
 unset paths_array
-paths_array=($(ls ./data/assembly/path_sele*))
-delete='./data/assembly/path_sele_all.txt'
+paths_array=($(ls ./data/assembly/path_plip*))
+delete='./data/assembly/path_plip_all.txt'
 paths_array=( "${paths_array[@]/$delete}" )
 
 echo 'finished splitting the path files'

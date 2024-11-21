@@ -120,5 +120,6 @@ if __name__ == '__main__':
 
     if args.one2one:
         plip_result_path = "./data/one2one/plip_result/"
+        pass #TODO: not implemeted yet
 
 
